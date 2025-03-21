@@ -1,6 +1,6 @@
 # ListaDeExercicios01
 ## Descrição
-Primeira lista de Exercícios da Academia do Programador, Contém os Exercicios 1-5, 7 e 9-15.*
+Primeira lista de Exercícios da Academia do Programador, Contém os Exercicios 1-5, 7 e 9-17.*
 
 *Na atual versão, os exercícios 6 e 8 não foram finalizados.
 ## Créditos
