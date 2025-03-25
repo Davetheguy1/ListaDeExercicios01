@@ -1,8 +1,8 @@
 # ListaDeExercicios01
 ## Descrição
-Primeira lista de Exercícios da Academia do Programador, Contém os Exercicios 1-5, 7 e 9-21 e 23.*
+Primeira lista de Exercícios da Academia do Programador, Contém os Exercicios 1-5, 7, 9-23.*
 
-*Na atual versão, os exercícios 6, 8 e 22 não foram finalizados.
+*Na atual versão, os exercícios 6 e 8  não foram finalizados.
 ## Créditos
 Programa feito por Danilo Cenci (https://github.com/Davetheguy1)
 

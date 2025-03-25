@@ -7,10 +7,12 @@
         static long FactorialGenerator(int cn)
         {
             long factorial = 1;
-            for (int i = 1; i <= cn; i++)
+            for (int i = cn; i >= 1; i--)
             {
                 factorial *= i;
+
             }
+
             
             return factorial;
             
@@ -18,15 +20,10 @@
         
         static void mainProgram()
         {
-            Console.WriteLine("Informe um Valor Inteiro de 1 a 20:\n");
+            Console.WriteLine("Informe um Valor Inteiro:\n");
             int chosenNum = int.Parse(Console.ReadLine());
-            if (chosenNum > 20)
-            {
-                Console.WriteLine("Erro, Valor Muito Grande Escolhido.\n");
-                mainProgram();
-            }
             long factorial = FactorialGenerator(chosenNum);
-            Console.WriteLine($"\nO Fatorial de {chosenNum} é: {factorial}");
+            Console.WriteLine($"\n{chosenNum}! : {factorial}");
             Environment.Exit(0);
         }
         

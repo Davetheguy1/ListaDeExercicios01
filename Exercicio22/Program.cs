@@ -8,7 +8,20 @@
             Console.WriteLine("Digite um Número:");
             int chosenNum = int.Parse(Console.ReadLine());
 
-            List<double> seq = new List<double> { };
+            int num1 = 0, num2 = 1;
+
+            Console.Write(num1 + "," + num2 + ",");
+
+            while (num2 < chosenNum)
+            {
+                int num3 = num1 + num2;
+                Console.Write(num3 + ",");
+                num1 = num2;
+                num2 = num3;
+            }
+
+            Console.WriteLine();
+            Console.ReadLine();
 
         }
     }

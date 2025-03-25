@@ -15,7 +15,11 @@
             Console.WriteLine("Comissão por Venda: \n(*O valor deve ser maior do que 0 e menor do que 1*)");
             double comission = double.Parse(Console.ReadLine());
             Console.WriteLine("Quantas Vendas feitas no mês:");
-            double monthSales = int.Parse(Console.ReadLine());
+            double monthSalesNum = int.Parse(Console.ReadLine());
+            Console.WriteLine("Qual o valor de cada venda:");
+            double monthSalesValue = int.Parse(Console.ReadLine());
+            double monthSales = monthSalesNum * monthSalesValue;
+            
 
             double salary = baseSalary + (monthSales * comission);
             

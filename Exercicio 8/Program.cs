@@ -4,21 +4,32 @@ namespace Exercicio_8
 {
     internal class Program
     {
+        
+        static bool PrimeDetector(int num)
+        {
+            return false;
+        }
+        
+        
+        
+        
+        
+        
         static void Main(string[] args)
         {
 
-            // não consegui fazer esse
             Console.WriteLine("Digite um Número Inteiro:\n");
             int num = int.Parse(Console.ReadLine());
-            if (num < 2)
+            bool isPrime  = PrimeDetector(num);
+
+
+            if  (isPrime == true)
             {
-                Console.WriteLine($"O Número {num} não é primo");
+                Console.WriteLine($"\nO Número {num} é primo");
                 Console.ReadLine();
-            } else if (num == 2)
-            {
-                Console.WriteLine($"O Número {num} é primo");
-                Console.ReadLine();
-            } else if (num == );
+            } else {
+                Console.WriteLine($"\nO Número {num} não é primo");
+            }
             
         }
     }
